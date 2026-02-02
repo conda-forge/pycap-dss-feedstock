@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pycap_dss-{{ version }}.tar.gz
-  sha256: e17ac77d257365b667f8e7c971544ad2d2e3309e01f6dc4ad47c5842ce37a91d
+  sha256: e21aea64468ce12c77aca305458e490fb5671dd3d4d174c57ed2dfa32ce6103c
 
 build:
   noarch: python
