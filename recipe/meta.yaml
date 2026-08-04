@@ -1,5 +1,5 @@
 {% set name = "pycap-dss" %}
-{% set version = "1.3.0" %}
+{% set version = "1.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pycap_dss-{{ version }}.tar.gz
-  sha256: e21aea64468ce12c77aca305458e490fb5671dd3d4d174c57ed2dfa32ce6103c
+  sha256: c441c4623588e1754d5422e6f8eaae707dc174eb71fa0b53460ff49745d31b8e
 
 build:
   noarch: python
